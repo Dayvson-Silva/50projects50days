@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./image/cod 2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contagem {
+    font-size: 100px;
+    color: rgb(97, 97, 97);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Para fazer a porcentagem desaparecer suavemente */
+}
+
+
